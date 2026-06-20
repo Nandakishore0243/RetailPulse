@@ -1,0 +1,37 @@
+RetailPulse - Day 11 Summary
+
+Feature Importance Analysis and Hyperparameter Tuning
+
+Dataset Used:
+rfm_customer_data.csv
+
+Model:
+XGBoost Classifier
+
+Optimization Method:
+Optuna Hyperparameter Tuning
+
+Trials Performed:
+20
+
+Best Parameters:
+
+n_estimators      : 215
+max_depth         : 9
+learning_rate     : 0.0733
+subsample         : 0.8309
+colsample_bytree  : 0.5659
+
+Model Accuracy:
+1.0
+
+Feature Importance:
+- Recency was the most important feature.
+- Monetary and Frequency contributed less.
+- RFM Score had moderate impact.
+
+Key Findings:
+- Optuna successfully identified optimal hyperparameters.
+- Tuned model achieved perfect classification accuracy.
+- Recency remains the strongest indicator of customer churn.
+- Model is ready for deployment and monitoring.

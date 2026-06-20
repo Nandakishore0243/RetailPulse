@@ -1,0 +1,36 @@
+RetailPulse - Day 2 Summary
+
+Data Cleaning Completed
+
+Original Rows:
+1,067,371
+
+Rows After Removing Missing Customer IDs:
+824,364
+
+Rows After Removing Cancelled Transactions:
+805,620
+
+Rows After Removing Invalid Prices:
+805,549
+
+Files Created:
+1. cleaned_retail_data.csv
+2. rfm_customer_data.csv
+
+RFM Features:
+- Recency
+- Frequency
+- Monetary
+
+Customer Count:
+5,878
+
+VIP Customers (RFM Score 555):
+474
+
+Key Findings:
+- Dataset successfully cleaned.
+- Customer behavior metrics generated.
+- RFM scoring completed.
+- VIP customers identified for future targeting.

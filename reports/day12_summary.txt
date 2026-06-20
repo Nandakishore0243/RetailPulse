@@ -1,0 +1,33 @@
+RetailPulse - Day 12 Summary
+
+Data Drift Detection Using Evidently AI
+
+Dataset Used:
+rfm_customer_data.csv
+
+Method:
+- Evidently AI
+- Data Drift Monitoring
+
+Reference Dataset:
+Original RFM customer dataset
+
+Current Dataset:
+Modified customer dataset
+
+Features Evaluated:
+- Recency
+- Frequency
+- Monetary
+- RFM Scores
+
+Process:
+- Created reference and current datasets.
+- Simulated customer behavior changes.
+- Executed drift detection analysis using Evidently.
+
+Key Findings:
+- Drift analysis executed successfully.
+- Changes in customer behavior can be monitored automatically.
+- Drift monitoring helps identify when models need retraining.
+- Evidently AI can be integrated into production monitoring pipelines.

@@ -1,0 +1,33 @@
+RetailPulse - Day 6 Summary
+
+Sales Forecasting Using LSTM (PyTorch Lightning)
+
+Dataset Used:
+daily_sales.csv
+
+Target Variable:
+- Daily Sales
+
+Preprocessing:
+- MinMaxScaler
+- Sequence Length = 30 Days
+- Train/Test Split = 80/20
+
+Model:
+- LSTM
+- Hidden Size = 50
+- Adam Optimizer
+- MSE Loss
+
+Training:
+- Epochs = 20
+
+Outputs:
+- lstm_forecast.csv
+- lstm_forecast.png
+
+Key Findings:
+- LSTM successfully learned the overall sales trend.
+- Predicted values closely follow actual sales patterns.
+- Extreme sales spikes are smoothed by the model.
+- Forecast can be improved using deeper architectures and hyperparameter tuning.

@@ -1,0 +1,32 @@
+RetailPulse - Day 4 Summary
+
+Time Series Preparation & Analysis
+
+Dataset Used:
+cleaned_retail_data.csv
+
+Target Variable:
+- Daily Sales Revenue
+
+Features Created:
+- Date
+- Sales
+
+Method:
+- Daily Revenue Aggregation
+- Time Series Visualization
+- ADF Stationarity Test
+- Seasonal Decomposition
+
+Outputs:
+- daily_sales.csv
+- daily_sales_trend.png
+- monthly_sales_trend.png
+- seasonal decomposition plots
+
+Key Findings:
+- Generated 604 daily sales records.
+- Sales show clear trend and seasonal patterns.
+- ADF Test p-value > 0.05 indicates the series is non-stationary.
+- Seasonal decomposition revealed trend, seasonality, and residual components.
+- Daily sales dataset prepared for forecasting models.

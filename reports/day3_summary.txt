@@ -1,0 +1,32 @@
+RetailPulse - Day 3 Summary
+
+Customer Segmentation Using K-Means
+
+Dataset Used:
+rfm_customer_data.csv
+
+Features:
+- Recency
+- Frequency
+- Monetary
+
+Method:
+- StandardScaler
+- K-Means Clustering
+- Elbow Method
+
+Optimal Clusters:
+4
+
+Customer Segments:
+
+Regular Customers : 3841
+At-Risk Customers : 1998
+VIP Customers     : 35
+Elite Customers   : 4
+
+Key Findings:
+- Most customers belong to the Regular segment.
+- 1998 customers are at risk and may require retention strategies.
+- 35 VIP customers generate high business value.
+- 4 Elite customers represent the highest-value customers.

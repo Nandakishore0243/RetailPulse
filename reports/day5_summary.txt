@@ -1,0 +1,29 @@
+RetailPulse - Day 5 Summary
+
+Sales Forecasting Using Prophet
+
+Dataset Used:
+daily_sales.csv
+
+Target Variable:
+- Daily Sales
+
+Method:
+- Facebook Prophet
+- Automatic Trend Detection
+- Seasonality Modeling
+- 30-Day Future Forecast
+
+Forecast Horizon:
+30 Days
+
+Outputs:
+- sales_forecast.csv
+- prophet_forecast.png
+
+Key Findings:
+- Prophet successfully captured overall sales trend.
+- Forecast generated for the next 30 days.
+- Confidence intervals provided forecast uncertainty ranges.
+- Seasonal sales patterns were automatically identified.
+- Prophet serves as the baseline forecasting model for comparison with LSTM.

@@ -1,0 +1,29 @@
+RetailPulse - Day 8 Summary
+
+Hybrid Forecasting Model
+
+Models Used:
+- Prophet Forecast
+- LSTM Forecast
+
+Method:
+- Ensemble Forecasting
+- Hybrid Prediction = (Prophet + LSTM) / 2
+
+Evaluation Results:
+
+Prophet MAE : 20253.37
+LSTM MAE    : 14078.20
+Hybrid MAE  : 16030.93
+
+Key Findings:
+- LSTM achieved the best forecasting accuracy.
+- Hybrid model improved over Prophet.
+- Hybrid model did not outperform LSTM.
+
+Artifacts Generated:
+- hybrid_forecast.csv
+- hybrid_forecast.png
+
+Conclusion:
+LSTM selected as the best forecasting model for RetailPulse.

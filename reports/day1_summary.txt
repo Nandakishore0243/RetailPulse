@@ -1,0 +1,30 @@
+RetailPulse - Day 1 Summary
+
+Dataset Rows: 1,067,371
+Dataset Columns: 8
+
+Date Range:
+2009-12-01 to 2011-12-09
+
+Total Revenue:
+19.29 Million
+
+Unique Customers:
+5942
+
+Unique Products:
+5698
+
+Missing Values:
+Description: 4382
+Customer ID: 243007
+
+Visualizations Created:
+1. Top 10 Selling Products
+2. Monthly Sales Trend
+
+Key Findings:
+- Dataset contains over 1 million retail transactions.
+- Revenue exceeds 19 million.
+- Some customer IDs and descriptions are missing.
+- Negative quantities/prices indicate returns or cancellations.

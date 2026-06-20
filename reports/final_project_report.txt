@@ -1,0 +1,28 @@
+RetailPulse Final Project Report
+
+Project:
+RetailPulse – Retail Analytics & Forecasting Platform
+
+Modules:
+1. Customer Segmentation
+2. Churn Prediction
+3. Demand Forecasting
+4. Inventory Optimization
+5. Alerts & Monitoring Dashboard
+
+Deployment:
+- Docker
+- Kubernetes
+- GitHub Actions CI/CD
+- Monitoring Setup
+
+Performance Metrics:
+MAE = 16030.93
+RMSE = 23988.10
+Accuracy = 58.31%
+
+Outcome:
+Successfully built an end-to-end retail analytics platform integrating data engineering, machine learning, forecasting, optimization, monitoring, and deployment workflows.
+
+Status:
+PROJECT COMPLETED SUCCESSFULLY

@@ -1,0 +1,19 @@
+
+{
+  "title": "RetailPulse Dashboard",
+
+  "panels": [
+    {
+      "title": "Forecast Demand",
+      "type": "graph"
+    },
+    {
+      "title": "Customer Churn",
+      "type": "graph"
+    },
+    {
+      "title": "Inventory Status",
+      "type": "graph"
+    }
+  ]
+}

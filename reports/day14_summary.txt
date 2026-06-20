@@ -1,0 +1,29 @@
+RetailPulse - Day 14 Summary
+
+Week 2 Checkpoint
+
+Modules Completed:
+- Prophet Forecasting
+- LSTM Forecasting
+- Hybrid Forecasting
+- Churn Prediction
+- Inventory Optimization
+- Optuna Hyperparameter Tuning
+- Drift Detection
+- Automated Retraining Pipeline
+
+Performance Metrics:
+- Prophet MAE: 20253.37
+- LSTM MAE: 14078.20
+- Hybrid MAE: 16030.93
+- Churn Accuracy: 100%
+
+Inventory Insights:
+- Reorder Required: 89 items
+- Stock Sufficient: 26 items
+
+Key Findings:
+- LSTM achieved the best forecasting performance.
+- Churn model successfully identified at-risk customers.
+- Inventory optimization highlighted products requiring replenishment.
+- End-to-end MLOps workflow established.

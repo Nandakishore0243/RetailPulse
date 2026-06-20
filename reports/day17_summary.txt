@@ -1,0 +1,47 @@
+Day 17 – Customer Segmentation & Churn Risk Dashboard
+
+Objective:
+Develop a customer analytics dashboard to visualize customer segments and churn risk predictions.
+
+Tasks Completed:
+1. Created Customer Analytics page in Streamlit.
+2. Loaded customer segmentation dataset.
+3. Loaded churn prediction dataset.
+4. Displayed customer segment information.
+5. Built segment distribution chart.
+6. Built churn risk distribution chart.
+7. Displayed dashboard metrics.
+8. Identified high-risk churn customers.
+9. Connected dashboard with Week 2 churn prediction outputs.
+
+Datasets Used:
+- customer_segments.csv
+- churn_predictions.csv
+
+Visualizations:
+- Customer Segment Distribution
+- Churn Risk Distribution
+
+Dashboard Components:
+- Customer Segment Table
+- Churn Prediction Table
+- Segment Distribution Chart
+- Churn Distribution Chart
+- Customer Metrics
+- High Risk Customers Section
+
+Metrics Displayed:
+- Total Customers
+- At-Risk Customers
+- Predicted Churn Customers
+
+Files Created:
+- dashboard/pages/2_Customer_Analytics.py
+- notebooks/day17_customer_dashboard.ipynb
+- reports/day17_summary.txt
+
+Status:
+Day 17 Completed Successfully
+
+Outcome:
+An interactive customer analytics dashboard was developed for monitoring customer segments, identifying churn risk, and supporting customer retention strategies.

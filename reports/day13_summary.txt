@@ -1,0 +1,22 @@
+RetailPulse - Day 13 Summary
+
+Automated Retraining Pipeline
+
+Objective:
+Simulate an Airflow-based retraining workflow.
+
+Pipeline Steps:
+- Data Validation
+- Data Preprocessing
+- Model Retraining
+- Model Evaluation
+- Model Deployment
+
+Output:
+pipeline_log.csv
+
+Key Findings:
+- Automated workflow successfully simulated.
+- All retraining stages executed in sequence.
+- Pipeline logs generated for monitoring.
+- Demonstrates MLOps workflow using Airflow concepts.

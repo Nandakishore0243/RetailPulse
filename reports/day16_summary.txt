@@ -1,0 +1,44 @@
+Day 16 – Demand Forecasting Dashboard
+
+Objective:
+Build an interactive forecasting dashboard using Streamlit and integrate Week 2 forecasting outputs.
+
+Tasks Completed:
+1. Created Forecasting page in Streamlit dashboard.
+2. Loaded Hybrid Forecast dataset.
+3. Displayed forecast results table.
+4. Built Forecast Comparison visualization.
+5. Compared Actual, Prophet, LSTM and Hybrid forecasts.
+6. Created Forecast Accuracy chart using MAE values.
+7. Implemented What-If Analysis using demand growth slider.
+8. Connected dashboard with Week 2 forecasting outputs.
+
+Dataset Used:
+- hybrid_forecast.csv
+
+Visualizations:
+- Forecast Comparison Line Chart
+- Forecast Accuracy Bar Chart
+- What-If Demand Analysis
+
+Model Performance:
+Prophet MAE : 20253.37
+LSTM MAE    : 14078.20
+Hybrid MAE  : 16030.93
+
+Dashboard Components:
+- Forecast Data Table
+- Forecast Comparison
+- Forecast Accuracy
+- What-If Analysis
+
+Files Created:
+- dashboard/pages/1_Forecasting.py
+- notebooks/day16_forecasting_dashboard.ipynb
+- reports/day16_summary.txt
+
+Status:
+Day 16 Completed Successfully
+
+Outcome:
+An interactive demand forecasting dashboard was developed, enabling forecast visualization, model comparison, and demand scenario analysis.

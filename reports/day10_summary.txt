@@ -1,0 +1,27 @@
+RetailPulse - Day 10 Summary
+
+Inventory Optimization Using Forecasted Demand
+
+Dataset Used:
+hybrid_forecast.csv
+
+Method:
+- Hybrid demand forecast
+- Safety Stock calculation
+- Reorder Point calculation
+- Inventory status classification
+
+Parameters:
+Lead Time = 7 Days
+Safety Stock = 20% of Forecast Demand
+
+Results:
+
+Reorder Required : 89
+Stock Sufficient : 26
+
+Key Findings:
+- Most inventory records require replenishment.
+- Reorder points were calculated using forecasted demand.
+- Safety stock was included to reduce stockout risk.
+- Inventory optimization helps improve stock planning.

@@ -1,0 +1,38 @@
+RetailPulse - Day 9 Summary
+
+Customer Churn Prediction Using XGBoost
+
+Dataset Used:
+rfm_customer_data.csv
+
+Features:
+- Recency
+- Frequency
+- Monetary
+- R_Score
+- F_Score
+- M_Score
+- RFM_Score
+
+Target:
+Churn
+(Recency > 90 days)
+
+Model:
+XGBoost Classifier
+
+Performance:
+Accuracy : 100%
+Precision: 100%
+Recall   : 100%
+F1 Score : 100%
+
+Explainability:
+- SHAP Summary Plot
+- Feature Importance Analysis
+
+Key Findings:
+- Recency is the strongest predictor of churn.
+- Customers inactive for more than 90 days are highly likely to churn.
+- Frequency and Monetary value also influence churn behavior.
+- The model successfully classified all customers in the test set.

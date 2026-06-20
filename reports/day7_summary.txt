@@ -1,0 +1,41 @@
+RetailPulse - Day 7 Summary
+
+Week 1 Checkpoint & Model Evaluation
+
+Models Evaluated:
+1. Prophet Forecasting
+2. LSTM Forecasting
+
+Prophet:
+- Baseline demand forecasting model
+- Forecast generated for future sales periods
+
+LSTM:
+- Built using PyTorch Lightning
+- Sequence Length: 30 days
+- Hidden Units: 50
+- Epochs: 20
+
+Evaluation Metrics:
+
+LSTM MAE  : 14078.20
+LSTM RMSE : 21727.12
+
+Artifacts Generated:
+- sales_forecast.csv
+- lstm_forecast.csv
+- daily_sales.csv
+- Forecast visualizations
+
+Week 1 Deliverables Completed:
+✓ EDA
+✓ Data Cleaning
+✓ Feature Engineering
+✓ Customer Segmentation
+✓ Time Series Analysis
+✓ Prophet Forecasting
+✓ LSTM Forecasting
+✓ Model Evaluation
+
+Week 1 Status:
+Completed Successfully

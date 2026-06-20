@@ -1,0 +1,27 @@
+
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: retailpulse-deployment
+  namespace: retailpulse
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: retailpulse
+
+  template:
+    metadata:
+      labels:
+        app: retailpulse
+
+    spec:
+      containers:
+      - name: retailpulse
+        image: retailpulse:latest
+
+        ports:
+        - containerPort: 8501
