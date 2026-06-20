@@ -65,7 +65,7 @@ st.dataframe(
     high_risk.head(20)
 )
 with open(
-    "../reports/customer_report.csv",
+    "reports/customer_report.csv",
     "rb"
 ) as file:
 

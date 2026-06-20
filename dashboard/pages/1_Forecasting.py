@@ -60,7 +60,7 @@ st.metric(
     f"{adjusted_forecast:,.2f}"
 )
 with open(
-    "../reports/forecast_report.csv",
+    "reports/forecast_report.csv",
     "rb"
 ) as file:
 

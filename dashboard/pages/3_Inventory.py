@@ -103,7 +103,7 @@ st.success(
     f"{reorder_count} products require replenishment."
 )
 with open(
-    "../reports/inventory_report.csv",
+    "reports/inventory_report.csv",
     "rb"
 ) as file:
 
