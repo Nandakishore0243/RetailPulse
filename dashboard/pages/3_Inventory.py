@@ -11,7 +11,7 @@ inventory optimization analysis.
 
 # Load Data
 inventory_df = pd.read_csv(
-    "../data/processed/inventory_optimization.csv"
+    "data/processed/inventory_optimization.csv"
 )
 
 # -------------------------

@@ -4,11 +4,11 @@ import pandas as pd
 st.title("👥 Customer Analytics Dashboard")
 
 segment_df = pd.read_csv(
-    "../data/processed/customer_segments.csv"
+    "data/processed/customer_segments.csv"
 )
 
 churn_df = pd.read_csv(
-    "../data/processed/churn_predictions.csv"
+    "data/processed/churn_predictions.csv"
 )
 st.subheader("Customer Segments")
 

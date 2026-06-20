@@ -9,15 +9,15 @@ using Prophet, LSTM, and Hybrid models.
 """)
 
 sales_df = pd.read_csv(
-    "../data/processed/sales_forecast.csv"
+    "data/processed/sales_forecast.csv"
 )
 
 lstm_df = pd.read_csv(
-    "../data/processed/lstm_forecast.csv"
+    "data/processed/lstm_forecast.csv"
 )
 
 hybrid_df = pd.read_csv(
-    "../data/processed/hybrid_forecast.csv"
+    "data/processed/hybrid_forecast.csv"
 )
 
 st.subheader("Hybrid Forecast Data")

@@ -8,9 +8,9 @@ This page monitors key business metrics and generates alerts.
 """)
 
 # Load datasets
-forecast_df = pd.read_csv("../data/processed/hybrid_forecast.csv")
-customer_df = pd.read_csv("../data/processed/customer_segments.csv")
-inventory_df = pd.read_csv("../data/processed/inventory_optimization.csv")
+forecast_df = pd.read_csv("data/processed/hybrid_forecast.csv")
+customer_df = pd.read_csv("data/processed/customer_segments.csv")
+inventory_df = pd.read_csv("data/processed/inventory_optimization.csv")
 
 # --------------------------------------------------
 # Demand Monitoring
