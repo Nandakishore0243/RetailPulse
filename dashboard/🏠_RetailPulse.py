@@ -10,11 +10,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --------------------------------------------------
-# Sidebar
-# --------------------------------------------------
-st.sidebar.title("📊 RetailPulse")
-st.sidebar.markdown("---")
 
 # --------------------------------------------------
 # Main Dashboard
@@ -126,5 +121,5 @@ Monitor:
 st.markdown("---")
 
 st.caption(
-    "RetailPulse Dashboard | Developed by P. Nanda Kishore"
+    "RetailPulse Dashboard"
 )
